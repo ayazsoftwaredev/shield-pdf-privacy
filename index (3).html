@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shield PDF - Privacy Policy</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        /* MODERN DARK THEME VARIABLES */
+        :root {
+            --bg-dark: #09090b;
+            --bg-card: rgba(39, 39, 42, 0.6);
+            --primary: #3b82f6;
+            --primary-hover: #2563eb;
+            --text-main: #e4e4e7;
+            --text-muted: #a1a1aa;
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(147, 51, 234, 0.08) 0%, transparent 40%);
+            line-height: 1.7;
+            padding-bottom: 50px;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 8%;
+        }
+
+        .brand {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(to right, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .lang-nav-container {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(9, 9, 11, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 15px 0;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+            border-top: 1px solid var(--glass-border);
+        }
+
+        .lang-nav {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 0 20px;
+        }
+
+        .lang-btn {
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--glass-border);
+            background: rgba(255, 255, 255, 0.03);
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn:hover {
+            color: #fff;
+            background: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .policy-card {
+            background: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px;
+            margin-bottom: 40px;
+            scroll-margin-top: 100px; 
+        }
+
+        .policy-card h2 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--glass-border);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .policy-card h3 {
+            color: #fff;
+            font-size: 1.1rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        .policy-card p {
+            margin-bottom: 15px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .policy-card ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            color: var(--text-muted);
+        }
+
+        .policy-card li {
+            margin-bottom: 5px;
+        }
+
+        .rtl {
+            direction: rtl;
+            text-align: right;
+        }
+        
+        .rtl ul {
+            padding-left: 0;
+            padding-right: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            opacity: 0.6;
+            padding-bottom: 20px;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 600px) {
+            .policy-card { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="brand">AyazSoftware</a>
+    </header>
+
+    <div class="lang-nav-container">
+        <nav class="lang-nav">
+            <a href="#tr" class="lang-btn">Türkçe</a>
+            <a href="#en" class="lang-btn">English</a>
+            <a href="#es" class="lang-btn">Español</a>
+            <a href="#de" class="lang-btn">Deutsch</a>
+            <a href="#fr" class="lang-btn">Français</a>
+            <a href="#it" class="lang-btn">Italiano</a>
+            <a href="#pt" class="lang-btn">Português</a>
+            <a href="#ar" class="lang-btn">العربية</a>
+        </nav>
+    </div>
+
+    <div class="container">
+
+        <div id="tr" class="policy-card">
+            <h2><i class="fas fa-shield-alt"></i> Gizlilik Politikası (Türkçe)</h2>
+            <p><strong>Son Güncelleme:</strong> 10 Ocak 2026</p>
+            <p>Bu gizlilik politikası, "Shield PDF" uygulaması ("Uygulama") tarafından toplanan verilerin nasıl kullanıldığını açıklar. Uygulamayı indirerek ve kullanarak bu politikayı kabul etmiş sayılırsınız.</p>
+            
+            <h3>1. Veri Toplama ve Kullanım</h3>
+            <p>Shield PDF, kullanıcı gizliliğine öncelik verir. Uygulama, temel işlevlerini (PDF oluşturma, birleştirme vb.) gerçekleştirmek için <strong>cihazınızda yerel olarak (offline) çalışır.</strong> Dosyalarınız sunucularımıza yüklenmez.</p>
+            
+            <h3>2. Satın Almalar ve Ödemeler</h3>
+            <p>Uygulama, Premium özellikler için uygulama içi satın alma (In-App Purchase) sunar. Tüm ödeme işlemleri <strong>Google Play Faturalandırma</strong> sistemi üzerinden güvenli bir şekilde işlenir. Kredi kartı veya ödeme bilgileriniz tarafımızca görülmez veya saklanmaz.</p>
+
+            <h3>3. Üçüncü Taraf Hizmetleri</h3>
+            <p>Aşağıdaki hizmet sağlayıcılarla çalışmaktayız:</p>
+            <ul>
+                <li><strong>Google Play Billing:</strong> Premium abonelik ve ödeme işlemleri için.</li>
+                <li><strong>Google AdMob:</strong> Reklam gösterimi için (Ücretsiz sürümde).</li>
+                <li><strong>Google ML Kit:</strong> Belge tarama işlemleri için.</li>
+            </ul>
+
+            <h3>4. İzinler</h3>
+            <ul>
+                <li><strong>Kamera:</strong> Belge taramak için gereklidir.</li>
+                <li><strong>Depolama:</strong> Dosyaları kaydetmek için gereklidir.</li>
+            </ul>
+
+            <h3>5. İletişim</h3>
+            <p>Sorularınız için: <strong>ayazsoftwaredev@gmail.com</strong></p>
+        </div>
+
+        <div id="en" class="policy-card">
+            <h2><i class="fas fa-globe"></i> Privacy Policy (English)</h2>
+            <p><strong>Last Updated:</strong> January 10, 2026</p>
+            <p>This privacy policy explains how data collected by the "Shield PDF" application ("App") is used.</p>
+            
+            <h3>1. Data Collection</h3>
+            <p>Shield PDF operates <strong>locally on your device (offline)</strong>. Your files are never uploaded to our servers.</p>
+            
+            <h3>2. Purchases and Payments</h3>
+            <p>The App offers in-app purchases for Premium features. All payment transactions are securely processed through <strong>Google Play Billing</strong>. We do not access or store your credit card or payment information.</p>
+
+            <h3>3. Third-Party Services</h3>
+            <ul>
+                <li><strong>Google Play Billing:</strong> For subscriptions and payments.</li>
+                <li><strong>Google AdMob:</strong> For ad display (Free version).</li>
+                <li><strong>Google ML Kit:</strong> For document scanning.</li>
+            </ul>
+
+            <h3>4. Permissions</h3>
+            <ul>
+                <li><strong>Camera:</strong> Used to scan documents.</li>
+                <li><strong>Storage:</strong> Required to save files.</li>
+            </ul>
+
+            <h3>5. Contact</h3>
+            <p>Email: <strong>ayazsoftwaredev@gmail.com</strong></p>
+        </div>
+
+        <div id="es" class="policy-card">
+            <h2><i class="fas fa-flag"></i> Política de Privacidad (Español)</h2>
+            <p><strong>Última actualización:</strong> 10 de enero de 2026</p>
+            
+            <h3>1. Recopilación de datos</h3>
+            <p>Shield PDF funciona <strong>localmente en su dispositivo</strong>. Sus archivos nunca se cargan en nuestros servidores.</p>
+            
+            <h3>2. Compras y Pagos</h3>
+            <p>La aplicación ofrece compras dentro de la aplicación para funciones Premium. Todas las transacciones se procesan de forma segura a través de <strong>Google Play Billing</strong>. No almacenamos su información de pago.</p>
+
+            <h3>3. Servicios de terceros</h3>
+            <ul>
+                <li><strong>Google Play Billing:</strong> Para pagos y suscripciones.</li>
+                <li><strong>Google AdMob:</strong> Para mostrar anuncios.</li>
+            </ul>
+
+            <h3>4. Contacto</h3>
+            <p>Correo: <strong>ayazsoftwaredev@gmail.com</strong></p>
+        </div>
+
+        <div id="de" class="policy-card">
+            <h2><i class="fas fa-flag"></i> Datenschutzerklärung (Deutsch)</h2>
+            <p><strong>Letzte Aktualisierung:</strong> 10. Januar 2026</p>
+            
+            <h3>1. Datenerfassung</h3>
+            <p>Shield PDF arbeitet <strong>lokal auf Ihrem Gerät</strong>. Ihre Dateien werden niemals hochgeladen.</p>
+            
+            <h3>2. Käufe und Zahlungen</h3>
+            <p>Die App bietet In-App-Käufe für Premium-Funktionen. Alle Zahlungsvorgänge werden sicher über <strong>Google Play Billing</strong> abgewickelt. Wir speichern Ihre Zahlungsinformationen nicht.</p>
+
+            <h3>3. Dienste von Drittanbietern</h3>
+            <ul>
+                <li><strong>Google Play Billing:</strong> Für Zahlungen.</li>
+                <li><strong>Google AdMob:</strong> Für Werbung.</li>
+            </ul>
+
+            <h3>4. Kontakt</h3>
+            <p>E-Mail: <strong>ayazsoftwaredev@gmail.com</strong></p>
+        </div>
+
+        <div id="fr" class="policy-card">
+            <h2><i class="fas fa-flag"></i> Politique de Confidentialité (Français)</h2>
+            <p><strong>Dernière mise à jour:</strong> 10 janvier 2026</p>
+            
+            <h3>1. Collecte de données</h3>
+            <p>Shield PDF fonctionne <strong>localement sur votre appareil</strong>. Vos fichiers ne sont jamais téléchargés sur nos serveurs.</p>
+            
+            <h3>2. Achats et Paiements</h3>
+            <p>L'application propose des achats intégrés pour les fonctionnalités Premium. Toutes les transactions sont traitées en toute sécurité via <strong>Google Play Billing</strong>. Nous ne stockons pas vos informations de paiement.</p>
+
+            <h3>3. Services tiers</h3>
+            <ul>
+                <li><strong>Google Play Billing:</strong> Pour les paiements.</li>
+                <li><strong>Google AdMob:</strong> Pour la publicité.</li>
+            </ul>
+
+            <h3>4. Contact</h3>
+            <p>E-mail: <strong>ayazsoftwaredev@gmail.com</strong></p>
+        </div>
+
+        <div id="it" class="policy-card">
+            <h2><i class="fas fa-flag"></i> Informativa sulla Privacy (Italiano)</h2>
+            <p><strong>Ultimo aggiornamento:</strong> 10 gennaio 2026</p>
+            
+            <h3>1. Raccolta dati</h3>
+            <p>Shield PDF funziona <strong>localmente sul tuo dispositivo</strong>. I tuoi file non vengono mai caricati sui server.</p>
+            
+            <h3>2. Acquisti e Pagamenti</h3>
+            <p>L'app offre acquisti in-app per le funzionalità Premium. Tutte le transazioni vengono elaborate in modo sicuro tramite <strong>Google Play Billing</strong>. Non memorizziamo i tuoi dati di pagamento.</p>
+
+            <h3>3. Servizi di terze parti</h3>
+            <ul>
+                <li><strong>Google Play Billing:</strong> Per i pagamenti.</li>
+                <li><strong>Google AdMob:</strong> Per gli annunci.</li>
+            </ul>
+
+            <h3>4. Contatto</h3>
+            <p>Email: <strong>ayazsoftwaredev@gmail.com</strong></p>
+        </div>
+
+        <div id="pt" class="policy-card">
+            <h2><i class="fas fa-flag"></i> Política de Privacidade (Português)</h2>
+            <p><strong>Última atualização:</strong> 10 de janeiro de 2026</p>
+            
+            <h3>1. Coleta de dados</h3>
+            <p>O Shield PDF funciona <strong>localmente no seu dispositivo</strong>. Seus arquivos nunca são enviados para nossos servidores.</p>
+            
+            <h3>2. Compras e Pagamentos</h3>
+            <p>O aplicativo oferece compras no aplicativo para recursos Premium. Todas as transações são processadas com segurança através do <strong>Google Play Billing</strong>. Não armazenamos suas informações de pagamento.</p>
+
+            <h3>3. Serviços de terceiros</h3>
+            <ul>
+                <li><strong>Google Play Billing:</strong> Para pagamentos.</li>
+                <li><strong>Google AdMob:</strong> Para anúncios.</li>
+            </ul>
+
+            <h3>4. Contato</h3>
+            <p>Email: <strong>ayazsoftwaredev@gmail.com</strong></p>
+        </div>
+
+        <div id="ar" class="policy-card rtl">
+            <h2><i class="fas fa-flag"></i> سياسة الخصوصية (العربية)</h2>
+            <p><strong>آخر تحديث:</strong> 10 يناير 2026</p>
+            
+            <h3>1. جمع البيانات</h3>
+            <p>يعمل Shield PDF <strong>محليًا على جهازك</strong>. لا يتم تحميل ملفاتك أبدًا إلى خوادمنا.</p>
+            
+            <h3>2. المشتريات والمدفوعات</h3>
+            <p>يوفر التطبيق عمليات شراء داخل التطبيق للميزات المميزة (Premium). تتم معالجة جميع المعاملات بشكل آمن من خلال <strong>Google Play Billing</strong>. نحن لا نقوم بتخزين معلومات الدفع الخاصة بك.</p>
+
+            <h3>3. خدمات الجهات الخارجية</h3>
+            <ul>
+                <li><strong>Google Play Billing:</strong> للمدفوعات.</li>
+                <li><strong>Google AdMob:</strong> للإعلانات.</li>
+            </ul>
+
+            <h3>4. اتصال</h3>
+            <p>البريد الإلكتروني: <strong>ayazsoftwaredev@gmail.com</strong></p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ayaz Software. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
